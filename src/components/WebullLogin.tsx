@@ -165,7 +165,7 @@ const WebullLogin = () => {
           {/* Social Login */}
           <div className="flex justify-center space-x-4">
             <button className="w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center">
-              <span className="text-lg">🍎</span>
+              <span className="text-gray-600 text-lg">👤</span>
             </button>
             <button className="w-10 h-10 rounded-full bg-blue-600 hover:bg-blue-700 flex items-center justify-center">
               <span className="text-white font-bold text-sm">f</span>
