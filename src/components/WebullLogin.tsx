@@ -22,21 +22,22 @@ const WebullLogin = () => {
           <span className="text-xl font-semibold">Webull</span>
         </div>
 
-        {/* Main Content */}
-        <div className="flex-1 flex flex-col justify-center space-y-8">
-          <div className="space-y-6">
-            <h1 className="text-2xl lg:text-3xl font-bold leading-tight text-shadow-sm">
+        {/* Main Content - Centered */}
+        <div className="flex-1 flex flex-col justify-center items-center text-center space-y-6">
+          {/* Main Heading */}
+          <div className="space-y-4">
+            <h1 className="text-3xl lg:text-4xl font-bold leading-tight text-shadow-sm">
               Invest in Stocks, ETFs, Options,<br />
               Fixed Income & Futures
             </h1>
             
-            <p className="text-lg lg:text-xl text-blue-100 max-w-lg">
+            <p className="text-lg lg:text-xl text-blue-100">
               Join Webull today and start investing with 0 commission*
             </p>
           </div>
 
           {/* Disclaimer */}
-          <div className="text-xs text-blue-200 max-w-lg space-y-2">
+          <div className="text-xs text-blue-200 max-w-md space-y-2">
             <p>
               *Relevant regulatory and exchange fees may apply. Please refer to our{" "}
               <a href="#" className="underline hover:text-white">Fee Schedule</a> for more details.
@@ -44,24 +45,17 @@ const WebullLogin = () => {
             <p>
               Options are risky and not suitable for all investors. Investors can rapidly lose 100% or more of their investment trading options. Before trading options, carefully read{" "}
               <a href="#" className="underline hover:text-white">Characteristics and Risks of Standardized Options</a>, available at{" "}
-              <a href="#" className="underline hover:text-white">webull.com/policy</a>.
+              <a href="#" className="webull.com/policy">webull.com/policy</a>.
             </p>
           </div>
 
-          {/* Dashboard Mockup */}
-          <div className="relative max-w-lg">
+          {/* Dashboard Mockup - Smaller */}
+          <div className="relative max-w-sm mt-6">
             <img 
               src={dashboardMockup} 
               alt="Trading Dashboard" 
-              className="w-full rounded-lg shadow-2xl"
+              className="w-full rounded-lg shadow-xl"
             />
-            {/* Decorative elements */}
-            <div className="absolute -top-4 -left-4 w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
-              <span className="text-yellow-900 font-bold text-xs">$</span>
-            </div>
-            <div className="absolute -bottom-4 -right-4 w-8 h-8 bg-pink-400 rounded-full flex items-center justify-center">
-              <span className="text-pink-900 font-bold text-xs">📊</span>
-            </div>
           </div>
         </div>
       </div>
