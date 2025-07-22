@@ -48,8 +48,13 @@ const WebullLogin = () => {
             </p>
           </div>
 
-          {/* Dashboard Mockup - Below text */}
+          {/* New Screenshot Above Dashboard */}
           <div className="relative max-w-sm mt-4">
+            <img 
+              src="/lovable-uploads/c2f85980-e999-4a2a-aef8-cdc7a8399b77.png" 
+              alt="Webull Interface" 
+              className="w-full rounded-lg shadow-xl mb-4"
+            />
             <img 
               src="/lovable-uploads/6ac58f00-43d0-4561-9758-3dc989da96ab.png" 
               alt="Trading Dashboard" 
@@ -66,7 +71,7 @@ const WebullLogin = () => {
           <img 
             src="/lovable-uploads/e207ad4a-7bc9-4067-ba68-75069dbc8068.png" 
             alt="Scan QR code to log in" 
-            className="w-auto h-20"
+            className="w-auto h-28"
           />
         </div>
 
