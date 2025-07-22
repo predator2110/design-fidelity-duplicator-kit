@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Eye, EyeOff, QrCode } from "lucide-react";
-import dashboardMockup from "@/assets/dashboard-mockup.png";
+import dashboardMockup from "@/assets/new-dashboard-mockup.png";
 
 const WebullLogin = () => {
   const [showPassword, setShowPassword] = useState(false);
