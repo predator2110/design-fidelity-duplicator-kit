@@ -15,12 +15,11 @@ const WebullLogin = () => {
       {/* Left Panel - Marketing Content */}
       <div className="w-1/2 webull-gradient flex flex-col justify-between p-8 lg:p-12 text-white">
         {/* Logo */}
-        <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
-            <span className="text-webull-blue font-bold text-sm">W</span>
-          </div>
-          <span className="text-xl font-semibold">Webull</span>
-        </div>
+        <img 
+          src="/lovable-uploads/97b29a27-b8ee-4e2d-9bb1-9af98223f3cf.png" 
+          alt="Webull Logo" 
+          className="h-12"
+        />
 
         {/* Main Content - Positioned in middle area */}
         <div className="flex-1 flex flex-col justify-center items-center text-center space-y-4 pt-8">
@@ -64,12 +63,11 @@ const WebullLogin = () => {
       <div className="w-1/2 bg-white p-8 lg:p-12 flex flex-col">
         {/* QR Code Section */}
         <div className="flex justify-end mb-8">
-          <div className="text-center">
-            <p className="text-sm text-webull-blue mb-2">Scan QR code to log in</p>
-            <div className="w-8 h-8 border border-gray-300 rounded flex items-center justify-center">
-              <QrCode size={16} className="text-gray-400" />
-            </div>
-          </div>
+          <img 
+            src="/lovable-uploads/e207ad4a-7bc9-4067-ba68-75069dbc8068.png" 
+            alt="Scan QR code to log in" 
+            className="w-auto h-20"
+          />
         </div>
 
         {/* Login Form */}
