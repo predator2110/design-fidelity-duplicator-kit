@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Eye, EyeOff, QrCode } from "lucide-react";
-import DashboardMockup from "./DashboardMockup";
+
 
 const WebullLogin = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -51,7 +51,11 @@ const WebullLogin = () => {
 
           {/* Dashboard Mockup - Below text */}
           <div className="relative max-w-sm mt-4">
-            <DashboardMockup />
+            <img 
+              src="/lovable-uploads/6ac58f00-43d0-4561-9758-3dc989da96ab.png" 
+              alt="Trading Dashboard" 
+              className="w-full rounded-lg shadow-xl"
+            />
           </div>
         </div>
       </div>
