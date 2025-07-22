@@ -15,11 +15,12 @@ const WebullLogin = () => {
       {/* Left Panel - Marketing Content */}
       <div className="w-1/2 webull-gradient flex flex-col justify-between p-8 lg:p-12 text-white">
         {/* Logo */}
-        <img 
-          src="/lovable-uploads/97b29a27-b8ee-4e2d-9bb1-9af98223f3cf.png" 
-          alt="Webull Logo" 
-          className="h-12"
-        />
+        <div className="flex items-center space-x-2">
+          <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
+            <span className="text-webull-blue font-bold text-sm">W</span>
+          </div>
+          <span className="text-xl font-semibold">Webull</span>
+        </div>
 
         {/* Main Content - Positioned in middle area */}
         <div className="flex-1 flex flex-col justify-center items-center text-center space-y-4 pt-8">
@@ -48,13 +49,8 @@ const WebullLogin = () => {
             </p>
           </div>
 
-          {/* New Screenshot Above Dashboard */}
+          {/* Dashboard Mockup - Below text */}
           <div className="relative max-w-sm mt-4">
-            <img 
-              src="/lovable-uploads/c2f85980-e999-4a2a-aef8-cdc7a8399b77.png" 
-              alt="Webull Interface" 
-              className="w-full rounded-lg shadow-xl mb-4"
-            />
             <img 
               src="/lovable-uploads/6ac58f00-43d0-4561-9758-3dc989da96ab.png" 
               alt="Trading Dashboard" 
@@ -68,11 +64,12 @@ const WebullLogin = () => {
       <div className="w-1/2 bg-white p-8 lg:p-12 flex flex-col">
         {/* QR Code Section */}
         <div className="flex justify-end mb-8">
-          <img 
-            src="/lovable-uploads/e207ad4a-7bc9-4067-ba68-75069dbc8068.png" 
-            alt="Scan QR code to log in" 
-            className="w-auto h-28"
-          />
+          <div className="text-center">
+            <p className="text-sm text-webull-blue mb-2">Scan QR code to log in</p>
+            <div className="w-8 h-8 border border-gray-300 rounded flex items-center justify-center">
+              <QrCode size={16} className="text-gray-400" />
+            </div>
+          </div>
         </div>
 
         {/* Login Form */}
